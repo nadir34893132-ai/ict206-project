@@ -1,7 +1,5 @@
-fastapi
-uvicorn
-tensorflow
-pillow
+streamlit
 numpy
-requests
-python-multipart
+matplotlib
+tensorflow
+Pillow
