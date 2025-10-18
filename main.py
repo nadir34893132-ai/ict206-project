@@ -22,10 +22,10 @@ def predict(image_path, model):
 
 
 # Streamlit App
-st.title("Skin Cancer Detection")
+st.title("Automated Melanoma Skin Cancer Screening Using Convolutional Neural Networks")
 
 st.markdown("""
-    This is a skin cancer detection application. Upload an image, and the model will predict whether the skin lesion is **Malignant** or **Benign**.
+    Upload an image, and the model will predict whether the skin lesion is **Malignant** or **Benign**.
 """)
 
 # File uploader
@@ -46,16 +46,3 @@ if uploaded_image is not None:
     # ax.axis("off")
     # st.pyplot(fig)
 
-# Additional info and styling
-st.markdown("""
-    ### About the Model:
-    This model uses CNN architecture for predicting whether a skin lesion is **Benign** or **Malignant** based on images of skin lesions.
-
-    #### Features:
-    - **Input**: Skin lesion images
-    - **Output**: **Benign** or **Malignant** classification
-
-    #### How to use:
-    1. Upload an image of a skin lesion.
-    2. The model will predict if it's **Benign** or **Malignant**.
-""")
